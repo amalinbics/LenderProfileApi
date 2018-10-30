@@ -8,6 +8,6 @@ namespace LenderProfileApi.Dto
     public class SaveLenderProfileDto
     {
         public LenderDto Lender { get; set; }
-        public LoanDto Loan { get; set; }
+        public SaveLoanDto Loan { get; set; }
     }
 }

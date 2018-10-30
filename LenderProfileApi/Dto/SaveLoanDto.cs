@@ -6,7 +6,7 @@ using System.Web;
 
 namespace LenderProfileApi.Dto
 {
-    public class LoanDto
+    public class SaveLoanDto
     {
         public int Id { get; set; }
 
@@ -28,12 +28,7 @@ namespace LenderProfileApi.Dto
         [Required]
         public decimal EMI { get; set; }
 
-        [Required]
         public int LenderId { get; set; }
-
-        public LenderDto Lender { get; set; }
-
-        public CibilScoreDto CibilScore { get; set; }
 
     }
 }

@@ -15,5 +15,7 @@ namespace LenderProfileApi.Models
         public DbSet<Lender> Lenders { get; set; }
         public DbSet<Loan> Loans { get; set; }
 
+        public DbSet<CibilScore> CibilScores { get; set; }
+
     }
 }
