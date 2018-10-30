@@ -82,15 +82,5 @@ namespace LenderProfileApi.Controllers
             _context.SaveChanges();
             return Ok("Deleted");
         }
-
-
-
-
-
-
-
-
-
-
     }
 }
